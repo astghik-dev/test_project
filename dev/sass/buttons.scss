@@ -1,0 +1,23 @@
+.btn {
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: $border-radius;
+    padding: $btn-padding;
+    cursor: pointer;
+    transition: all .3s;
+    &.primary {
+        background-color: $blue;
+        &:hover {
+            background-color: darken($blue, 5%);
+            box-shadow: 0 0 15px darken($blue, 10%);
+        }
+    }
+    &.filter {
+        background-color: $gray;
+        &:hover {
+            background-color: darken($gray, 5%);
+            box-shadow: 0 0 15px darken($gray, 10%);
+        }
+    }
+}

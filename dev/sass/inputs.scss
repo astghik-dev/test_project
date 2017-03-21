@@ -1,0 +1,16 @@
+.main-input {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 3px lighten($gray, 5%);
+    padding: 5px;
+    text-indent: 8px;
+    transition : all .3s;
+    &:focus {
+        box-shadow: 0 0 10px darken($blue, 10%);
+    }
+}
+
+.add-desc-input{
+    margin-top: 10px;
+    
+}
